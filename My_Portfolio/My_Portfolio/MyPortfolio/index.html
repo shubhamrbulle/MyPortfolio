@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyPortfolio</title>
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Swi
+         Js -->
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+      <!-- ======================== Nav ========================== -->
+    <nav>
+      <div class="container nav_container">
+        <a href="./index.html"><h4>MyPortfolio</h4></a>
+        <ul class="nav_menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./courses.html">Projects</a></li> 
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+        <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </nav>
+
+    <!--========================== Header ======================= -->
+    <header>
+        <div class="container header_container">
+            <div class="header_left">
+                <h1>Shubham Bulle</h1>
+                <p>Welcome to My Portfolio</p>
+                <a href="./about.html" class="btn btn-primary">About Me</a>
+            </div>
+
+            <div class="header_right">
+                <div class="header_right-image">
+                    <div class="myavatar">
+                        <img src="./images/avatar2.jpg" alt="">   
+                        <!--<img src="./images/My_img.png" alt="">-->   
+                    </div>
+                    <div class="testimonial_info">
+                        <h5>Shubham Bulle</h5>
+                        <small>Full Stack Java Developer</small>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram-square"></i></a>
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a> 
+                    </div>
+                    
+                    
+                    <!--<img src="./images/header_img.svg" alt="">-->
+                    <!-- <article class="testimonial swiper-slide">
+                        <div class="avatar">
+                            <img src="./images/avatar2.jpg" alt="">
+                        </div>
+                       <div class="testimonial_info">
+                            <h5>Shubham Bulle</h5>
+                            <small>Full Stack Java Developer</small>
+                        </div>
+                    </article>-->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ================= Categories Section ================= -->
+    <section class="categories">
+        <div class="container categories_container">
+            <div class="categories_left">
+                <h1>Skills</h1>
+                <p>My Acquired skills</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="categories_right">
+                <article class="category">
+                    <span class="category_icon"><i class="fa-brands fa-bitcoin"></i></span>
+                    <h5>Blockchain</h5>
+                    <p>Contract building in Solidity Language</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-file-invoice"></i></i></span>
+                    <h5>full Stack Java Developer</h5>
+                    <p>full Stack Software development by most popular Language java which include swing, RestAPI</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-palette"></i></span>
+                    <h5>Graphic Design</h5>
+                    <p>UI/UX Designer to develop User Interface/User Experience</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-bullhorn"></i></span>
+                    <h5>Full Stack Web Developer</h5>
+                    <p></p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                    <h5>Stock Market</h5>
+                    <p></p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-compact-disc"></i></span>
+                    <h5>Animation</h5>
+                    <p></p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== Courses Section ================== -->
+    <section class="courses">
+        <h2>Full Stack Web development Course For My Portfolio Visitors</h2>
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/HVjjoMvutj4?si=zSAJcIf8G9r2gH1S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div>
+        <!--<div class="container courses_container">
+            <article class="course">
+                <div class="course_image">
+                    <img src="./images/Shopping_Website.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Online Shopping Website</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni ipsam quam, recusandae fugiat est ad.</p>
+                    <a href="./courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./images/Social_Media.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Social Media Website UI Design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni ipsam quam, recusandae fugiat est ad.</p>
+                    <a href="./courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./images/Mobile_App.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Modern Mobile App UI Design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni ipsam quam, recusandae fugiat est ad.</p>
+                    <a href="./courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+        </div> -->
+        </div>
+    </section>
+
+    <!--========== Frequently Asked Question Section ============= -->
+
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs_container">
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question_answer">
+                    <h4>How TO BUILD WEBSITE?</h4>
+                    <p>
+                        Learn from basic HTML,CSS,JAVASCREPT, Frant-end & Back-end to become FULL STACK WEB Developer.
+                    </p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!--====================== Testimonials Section ============ -->
+    <section class="container testimonials_container swiper mySwiper">
+        <h2>Project Member</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar1.jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Rushika Mokalkar</h5>
+                    <small>Web Developer</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        BE-Computer Engineering
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar2.jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Shubham Bulle</h5>
+                    <small>Full Stack Java Developer</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        BE-Computer Engineering
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar3.jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Vishal Dalavi</h5>
+                    <small>DBA</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        BE-Computer Engineering
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar4.jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Vivek Pawar</h5>
+                    <small>Spiritual</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        BE-Computer Engineering
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar5.JPG" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Shailesh Rathod</h5>
+                    <small>Application Developer</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        BE-Computer Engineering
+                    </p>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- ================= Footer Section ======================= -->
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="./index.html" class="footer_logo"><h4>MyPortfolio</h4></a>
+                <p>
+                    Welcome to My Portfolio.
+                </p>
+            </div>
+
+        <div class="footer_2">
+            <h4>links</h4>
+            <ul class="links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./courses.html">Projects</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_3">
+            <h4>Agreements and Policies</h4>
+            <ul class="privacy">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Refund Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_4">
+            <h4>Contact Us</h4>
+            <div>
+                <p><i class="fa-solid fa-phone"></i><span>+91 9503094233 </span></p>
+                <p><i class="fa-solid fa-at"></i><span>shubhamrbulle@gmail.com</span></p>
+            </div>
+
+            <ul class="footer_socials">
+                <li>
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com"><i class="fa-brands fa-github-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/shubhamrbulle/"><i class="fa-brands fa-instagram-square"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer_copyright">
+        <small>&copy; MyPortfolio</small>
+    </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        // When Window width is >= 600px 
+        breakpoints: {
+            600: {
+                slidesPerView: 2,
+            }
+        }
+      });
+    </script>
+  </body>
+</html>
